@@ -49,3 +49,11 @@ cd wrt_relese
 1. 打开系统设置 → 启动项 → 定位到「appfilter」  
 2. 将「appfilter」当前状态**从已禁用更改为已启用**  
 3. 完成配置后，点击**启动**按钮激活服务  
+
+
+可能遇到的问题：
+缺少rsync：
+apt-get install rsync
+使用root编译：
+export set FORCE_UNSAFE_CONFIGURE=1
+使用1g内存机器编译提示内存不足

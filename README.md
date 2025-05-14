@@ -8,7 +8,7 @@ sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_e
 
 使用步骤：  
 git clone https://github.com/rdej2345/wrt_release_jd.git  
-checkout -b self  
+git checkout self  
 cd wrt_relese  
   
 编译京东云雅典娜(02)、亚瑟(01)、太乙(07)、AX5(JDC版):  

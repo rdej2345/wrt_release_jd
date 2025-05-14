@@ -8,7 +8,7 @@ sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_e
 
 使用步骤：  
 git clone https://github.com/rdej2345/wrt_release_jd.git  
-checkout -b self
+checkout -b self  
 cd wrt_relese  
   
 编译京东云雅典娜(02)、亚瑟(01)、太乙(07)、AX5(JDC版):  
@@ -51,9 +51,9 @@ cd wrt_relese
 3. 完成配置后，点击**启动**按钮激活服务  
 
 
-可能遇到的问题：
-缺少rsync：
-apt-get install rsync
-使用root编译：
-export set FORCE_UNSAFE_CONFIGURE=1
+可能遇到的问题：  
+缺少rsync：  
+apt-get install rsync  
+使用root编译：  
+export set FORCE_UNSAFE_CONFIGURE=1  
 使用1g内存机器编译提示内存不足
